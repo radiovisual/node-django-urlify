@@ -26,7 +26,7 @@ urlify('Étonnamment Beau Générateur de Limace');
 
 ## API
 
-### `urlify(string, num_chars, allowUnicode)`
+### `urlify(string, numChars, allowUnicode)`
 
 #### input
 
@@ -34,7 +34,7 @@ Type: `string`
 
 The string of characters you want to urlify/slugify.
 
-#### num_chars
+#### numChars
 
 Type: `number`
 
