@@ -3,7 +3,7 @@ import fn from './';
 
 test('urlifies', t => {
 	t.is(fn('tiešām labas lietas šeit'), 'tiesam-labas-lietas-seit');
-	t.is(fn('étonnamment beau générateur de limace'), 'etonnamment-beau-generateur-de-limace');
+	t.is(fn('Étonnamment Beau Générateur de Limace'), 'etonnamment-beau-generateur-de-limace');
 	t.is(fn('действительно хороший материал здесь!'), 'dejstvitelno-horoshij-material-zdes');
 	t.is(fn('Yllättävän kaunis etana generaattori.'), 'yllattavan-kaunis-etana-generaattori');
 	t.is(fn('εκπληκτικά όμορφη γεννήτρια γυμνοσάλιαγκας'), 'ekplhktika-omorfh-gennhtria-gymnosaliagkas');
