@@ -1,0 +1,40 @@
+{
+  "name": "node-django-urlify",
+  "version": "1.0.0",
+  "description": "Django's urlify.js for the node environment.",
+  "license": "MIT",
+  "repository": "radiovisual/node-django-urlify",
+  "author": {
+    "name": "Michael Wuergler",
+    "email": "wuergler@gmail.com",
+    "url": "numetriclabs.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && nyc ava --verbose",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "node",
+    "slugify",
+    "slug",
+    "urlify",
+    "url",
+    "django",
+    "port"
+  ],
+  "dependencies": {
+    "xregexp": "^3.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "coveralls": "^2.11.9",
+    "nyc": "^6.4.0",
+    "xo": "^0.14.0"
+  }
+}
