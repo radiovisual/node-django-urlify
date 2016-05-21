@@ -160,9 +160,10 @@ function URLify(s, numChars, allowUnicode) {
 		s = downcode(s);
 	}
 	var removelist = [
-		"a", "an", "as", "at", "before", "but", "by", "for", "from", "is",
-		"in", "into", "like", "of", "off", "on", "onto", "per", "since",
-		"than", "the", "this", "that", "to", "up", "via", "with"
+		'a', 'an', 'as', 'at', 'before', 'but', 'by', 'for', 'from', 'is',
+		'in', 'into', 'like', 'of', 'off', 'on', 'onto', 'per', 'since',
+		'than', 'the', 'this', 'that', 'to', 'up', 'via', 'with', 'de', 'le',
+		'les', 'der', 'das'
 	];
 	var r = new RegExp('\\b(' + removelist.join('|') + ')\\b', 'gi');
 	s = s.replace(r, '');

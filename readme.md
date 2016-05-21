@@ -20,7 +20,7 @@ $ npm install --save node-django-urlify
 const urlify = require('node-django-urlify');
 
 urlify('Étonnamment Beau Générateur de Limace');
-//=> 'etonnamment-beau-generateur-de-limace'
+//=> 'etonnamment-beau-generateur-limace'
 ```
 
 
