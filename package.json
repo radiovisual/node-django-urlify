@@ -1,6 +1,6 @@
 {
   "name": "node-django-urlify",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Django's urlify.js for the node environment.",
   "license": "MIT",
   "repository": "radiovisual/node-django-urlify",
