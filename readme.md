@@ -36,16 +36,27 @@ The string of characters you want to urlify/slugify.
 
 #### numChars
 
-Type: `number`
+Type: `number`<br/>
+Default: *no truncating by default*
 
-The number of characters.
+Set this number to truncate the return string to a specific length.
+
+```js
+urlify('Hello World!', 7)
+//=> 'hello-w'
+```
 
 #### allowUnicode
 
 Type: `boolean`<br>
 Default: `false`
 
-Allow or disable unicode support.
+You can set the allowUnicode parameter to `true`, if you want to allow Unicode characters:
+
+```js
+urlify('你好 World', -1, true)
+//=> '你好-world'
+```
 
 ## Related
 
