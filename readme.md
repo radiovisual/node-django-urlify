@@ -8,7 +8,7 @@ This module is a port of [Django's urlify.js](https://github.com/django/django/b
 	
 For example: `ÂËÎØŰý αβ!` → `'aeiouy-ab'`
 
-This module will attempt to recognize and normalize any non url-friendly characters from the following languages: Latin, Greek, Turkish, Romanian, Russian, Ukrainian, Czech, Polish, Latvian, Arabic, Lithuanian, Serbian and Azerbaijani.
+This module will attempt to recognize and normalize any non url-friendly characters from the following character sets: Latin, Greek, Turkish, Romanian, Russian, Ukrainian, Czech, Polish, Latvian, Arabic, Lithuanian, Serbian and Azerbaijani.
 	
 ## Install
 
