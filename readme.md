@@ -4,9 +4,12 @@
 
 [![Build Status](https://travis-ci.org/radiovisual/node-django-urlify.svg?branch=master)](https://travis-ci.org/radiovisual/node-django-urlify) [![Coverage Status](https://coveralls.io/repos/github/radiovisual/node-django-urlify/badge.svg?branch=master)](https://coveralls.io/github/radiovisual/node-django-urlify?branch=master)
 
-This module is a direct translation of [Django's urlify.js](https://github.com/django/django/blob/master/django/contrib/admin/static/admin/js/urlify.js), 
-allowing you to urlify (slugify) strings just like Django, only in the node environment. 
- 
+This module is a port of [Django's urlify.js](https://github.com/django/django/blob/master/django/contrib/admin/static/admin/js/urlify.js), for use in the node environment. This module will attempt to normalize a string of non url-friendly characters into a url-friendly slug.
+	
+For example: `ÂËÎØŰý αβ!` → `'aeiouy-ab'`
+
+This module will attempt to recognize and normalize any non url-friendly characters from the following languages: Latin, Greek, Turkish, Romanian, Russian, Ukrainian, Czech, Polish, Latvian, Arabic, Lithuanian, Serbian and Azerbaijani.
+	
 ## Install
 
 ```
